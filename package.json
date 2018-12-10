@@ -4,7 +4,7 @@
   "description": "Ethereum blockchain explorer - Shark of The Pool API",
   "main": "index.js",
   "scripts": {
-    "start": "export NODE_ENV=ropsten && nodemon index.js --trace-sync-io",
+    "start": "export NODE_ENV=test && nodemon index.js --trace-sync-io",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "standard --verbose --fix --global describe --global it | snazzy"
   },
@@ -15,6 +15,7 @@
   "author": "Johe <joze.kosmerl@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.18.7",
     "snazzy": "^8.0.0",
     "standard": "^12.0.1"
   },
