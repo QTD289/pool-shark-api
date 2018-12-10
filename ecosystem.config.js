@@ -20,7 +20,7 @@ module.exports = {
         NODE_ENV: 'ropsten',
         API_PORT: 3030,
         API_DOMAIN: 'http://localhost:3030',
-        CONTRACT: '0x210cd4170f609b7a9d93019918818e9e6389ee40',
+        CONTRACT: '0x8E41b6c00Ac5b413150b0bfdaF76b52e4Dc1AC03',
         RPC_ENDPOINT: '< enter rpc endpoint >',
         DB_CONNECTION: '< enter db connection >'
       }
